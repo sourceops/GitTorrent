@@ -1,7 +1,7 @@
 {
   "name": "gittorrent",
   "description": "Using BitTorrent to share git repositories",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": {
     "name": "Chris Ball",
     "email": "chris@printf.net",
@@ -15,7 +15,7 @@
     "url": "https://github.com/cjb/gittorrent/issues"
   },
   "dependencies": {
-    "bittorrent-dht": "git://github.com/substack/bittorrent-dht#dht-store",
+    "bittorrent-dht": "git://github.com/cjb/bittorrent-dht#dht-store",
     "bittorrent-protocol": "^1.5.7",
     "bittorrent-swarm": "^5.0.2",
     "chalk": "^1.0.0",

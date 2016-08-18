@@ -2,7 +2,7 @@
 
 ### The Decentralization of GitHub
 
-**GitTorrent** is a peer-to-peer network of Git repositories being shared over BitTorrent.
+**GitTorrent** is a peer-to-peer network of Git repositories being shared over BitTorrent. You can read more about the project at [this blog post](http://blog.printf.net/articles/2015/05/29/announcing-gittorrent-a-decentralized-github/).
 
 To get started:
 ```
@@ -19,6 +19,8 @@ Or serve your own repos with:
 touch somerepo/.git/git-daemon-export-ok
 gittorrentd
 ```
+
+Note that GitTorrent is not affiliated with the [git project](http://git-scm.com/).
 
 # Design
 
